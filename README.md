@@ -5,8 +5,8 @@ Primeiro modulo iniciado em julho de 2023.
 # Desenvolvimento
  No momento do desenvolvimento do quiz eu ainda não possuia conhecimentod sobre banco de dados ou manipulação de dados em desenvolvimento web. <br/>
  contudo eu ainda procurei por soluções que permitisse a criação de um quiz com um placar que se atualizasse em tempo real, 
- o funcionamento é bem simples pois o projeto foi feito muito no inicio do curso, todo o projeto foi separado em duas partes, <a href="https://github.com/AndrowDev/Leader-Board-Quiz/edit/main/README.md#quiz">Quiz </a> e <a href="https://github.com/AndrowDev/Leader-Board-Quiz/edit/main/README.md#LeaderBoard">leaderboard</a> <br/>
- alêm disso foi feito uma <a href="https://github.com/AndrowDev/Leader-Board-Quiz/edit/main/README.md#funções-do-console"> Area de Desenvolvedor </a> para testes e backup 
+ o funcionamento é bem simples pois o projeto foi feito muito no inicio do curso, todo o projeto foi separado em duas partes, <a href="https://github.com/AndrowDev/Leader-Board-Quiz#quiz">Quiz </a> e <a href="https://github.com/AndrowDev/Leader-Board-Quiz/#LeaderBoard">leaderboard</a> <br/>
+ alêm disso foi feito uma <a href="https://github.com/AndrowDev/Leader-Board-Quiz#funções-do-console"> Area de Desenvolvedor </a> para testes e backup 
 # Quiz 
 O quiz foi feito com uso de Arrays, funções, e manipulação oe HTML pelo JavaScript.
 # LeaderBoard 
