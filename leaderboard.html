@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="css/style.css" >
+    
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/script_LeaderBoard.js" defer>
+
+    </script>
+</head>
+<body>
+    <div id="areaTeste" class="areaTeste"> <!--OCULTE ESSA AREA ATRÁVEZ DO ATALHO DE DESENVOLVEDOR-->
+        <label for="nomePlayer" >Nome:</label>
+        <input id="nomePlayer" type="text"> <BR> <br>
+        <label for="tempo">TEMPO DE CONCLUSAO: </label>
+        <input id="tempo" type="number">
+        <br> <br>
+        <label for="pontuacao">ACERTOS: </label>
+        <input id="pontuacao" type="number">
+        <br> <br>
+        <input type="button" id="buttonEnviar" value="ENVIAR">
+        <input type="button" id="buttonLog" value="LOG"> <br> <br>
+        <input type="button" id="backup" value="Download Backup">
+
+        <input type="button" id="recarregarBackupButton" value="RECARREGAR BACKUP DO WEB">
+
+        <input type="button" id="clearList" value="Limpar Lista Placar">
+        <br> <br>
+
+        <label for="fileInput" style="background-color: white"> ESCOLHA O ARQUIVO DE BACKUP</label>
+
+        <input type="file" id="fileInput" placeholder="INSIRA O BACKUP AQUI" hspace=".json, .doc,.docx,.xml,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+        <hr>
+    </div>
+    <div class="app">
+        <div class="PrintName btn">
+
+            <div class="Item itemTitulo">
+                <div class="titulo"> QUIZ DESENVOLVIMENTO DE SISTEMAS</div>
+            </div>
+
+        </div>
+
+            <div id="PrintName" class="PrintName">
+
+        </div>
+        
+        <!--TODO: apagar todos os exemplos de teste-->
+        <div class="PrintName">
+            <div class="Item itemTituloFinal">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

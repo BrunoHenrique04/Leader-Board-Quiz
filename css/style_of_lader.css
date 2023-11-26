@@ -1,0 +1,140 @@
+.areaTeste {
+    display: none;
+}
+/*ESTRUTURA GLOBAL*/
+body::-webkit-scrollbar{
+    display: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background: linear-gradient(90deg,rgb(6, 57, 73) 20%,rgb(18, 88, 97) 100%);
+}
+/*ESTRUTURA APP*/
+.app
+{
+    width: 90%;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    
+}
+
+
+.app h1
+{
+    font-size: 25px;
+    color: #0e03a3;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+
+/*ESTRUTURA GERAL PRINTNAME*/
+.PrintName {
+    display: grid;
+    grid-template-columns: repeat(12, calc((100%) / 12)); /* 100px é a soma das margens nas bordas */
+    margin: 0 5px; /* Define a margem nas bordas */
+}
+/*Style geral dos itens*/
+.Item {
+    background-color: #212531;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    width: 100%;
+    text-align: left;
+    cursor: default;
+    border: solid 3px #383f53;
+    transition: all 0.3s;
+    grid-column-start: 2;
+    grid-column-end: 12;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr); /* 100px é a soma das margens nas bordas */
+    grid-column-gap: 5PX; /* Define o espaço entre as colunas (gutter) */
+    border-radius: 15px;
+}
+
+
+/*atributos gerais dos textos de cada item*/
+.ItemChild {
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/*atributos customizados para o nome*/
+.ItemChildName {
+    font-size: 1.5em;
+}
+
+.position {
+    /*border: 1px solid black;*/
+    grid-column: span 1;
+    font-size: 2em;
+    /*layout*/
+    width: 69px;
+    height: 69px;
+    flex-shrink: 0;
+    /*STYLE*/
+    color:  #cccccc;
+}
+
+.name {
+    /*border: 1px solid black;*/
+    grid-column: span 7;
+}
+
+.time {
+        text-align: center;
+        /*border: 1px solid black;*/
+        grid-column: span 1;
+        color: #10921b;
+        margin-right: 50px;
+}
+
+.points{
+    text-align: center;
+    /*border: 1px solid black;*/
+    grid-column: span 1;
+    color: #10921b;
+}
+
+.position, .name, .time, .points {
+    display: flex;
+    align-items: center;
+
+}
+
+
+/*----------------------------TITULO LEADERBOARD---------------------------*/
+.titulo {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    font-size: 1.3em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.imgCup {
+ margin-right: 15px;
+}
+.itemTitulo {
+    border-radius: 15px;
+}
+.itemTituloFinal {
+    border-radius: 15px ;
+}
+
+
+
+/*CUSTOMIZAÇÃO APP*/
+
