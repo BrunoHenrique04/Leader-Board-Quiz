@@ -25,4 +25,6 @@ na area de desenvolvedor os campos nome, tempo de conclusão, acertos e enviar n
 
 # Créditos 
 <a href="https://github.com/AndrowDev"> Bruno Henrique </a> <br/>
-<a href=""> Eduardo </a>
+<a href="https://github.com/Eduardokpn"> Eduardo Pereira</a> <br/>
+<a href="https://github.com/BradKynndy"> Brad Kynndy </a> <br/>
+<a href="https://github.com/VitorSouzaLuz"> Vitor Souza</a> <br/>
