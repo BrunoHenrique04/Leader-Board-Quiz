@@ -24,7 +24,7 @@ na area de desenvolvedor os campos nome, tempo de conclusão, acertos e enviar n
 ``Escolher o Arquivo de Backup`` nessa opção você escolhe o arquivo .json com os dados de backup para carregar esses dados.
 
 # Créditos 
-<a href="https://github.com/AndrowDev"> Bruno Henrique </a> <br/>
+<a href="https://github.com/BrunoHenrique04"> Bruno Henrique </a> <br/>
 <a href="https://github.com/Eduardokpn"> Eduardo Pereira</a> <br/>
 <a href="https://github.com/BradKynndy"> Brad Kynndy </a> <br/>
 <a href="https://github.com/VitorSouzaLuz"> Vitor Souza</a> <br/>
